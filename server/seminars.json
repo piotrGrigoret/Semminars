@@ -1,0 +1,84 @@
+{
+  "seminars": [
+    {
+      "id": "1",
+      "title": "Kosmoteros",
+      "description": "Гайд новых средств и методик от Kosmoteros.",
+      "date": "10.01.2002",
+      "time": "10:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdwcHXhVZW1FgZdTJAcNmS_ofgsAN0FjnQQ&s"
+    },
+    {
+      "id": "2",
+      "title": "Семинар по инновациям в косметологии",
+      "description": "Разбор новейших тенденций в косметологии и трендовых продуктов.",
+      "date": "03.02.2025",
+      "time": "11:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Sn_WPmnmQhrcCeS1zzGL2Fy8_OOPvQpNsA&s"
+    },
+    {
+      "id": "3",
+      "title": "Технологии ухода за кожей",
+      "description": "Изучение современных методик ухода за кожей с применением новейших технологий.",
+      "date": "05.02.2025",
+      "time": "12:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdrCfu_TkeNtK-n4qM5pXRNPCV6LXlL5L1aQmfkR30FpkREo-zeoXaiazXDB5CaKvLmw&usqp=CAU"
+    },
+    {
+      "id": "4",
+      "title": "Актуальные тренды в бьюти-индустрии",
+      "description": "Обсуждение современных трендов и методик в бьюти-индустрии.",
+      "date": "07.02.2025",
+      "time": "13:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2htiXg8vOpqu3BOFxVt0iSPv2-mO7NjdmFBj-NFELEK1jHVqzx72kyKaTYpWom8LwV1Q&usqp=CAU"
+    },
+    {
+      "id": "5",
+      "title": "Секреты профессионалов Kosmoteros",
+      "description": "Семинар с участием ведущих специалистов по использованию средств Kosmoteros.",
+      "date": "09.02.2025",
+      "time": "14:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw4ZhQ3lCKNqOLxdjKJ-x48Mv7WLiiyR0GTdoCnCtxFexPxA60i54fvWrAl_Aei_VZu8E&usqp=CAU"
+    },
+    {
+      "id": "6",
+      "title": "Эффективные методики омоложения",
+      "description": "Обучение современным методикам омоложения и ухода за кожей.",
+      "date": "11.02.2025",
+      "time": "15:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCGb-tfwI8TE4k5jG-Fht2Tyu6a_I7qTVIgJVVdvUVpF6vnPqlSUEDExH-xe-MIiOncT8&usqp=CAU"
+    },
+    {
+      "id": "7",
+      "title": "Инновационные средства Kosmoteros",
+      "description": "Демонстрация новых продуктов Kosmoteros и их уникальных свойств.",
+      "date": "13.02.2025",
+      "time": "16:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwt2Ng7F3TvQ0dc8fd6QY-CqfxR60Be9QFEN0O3lY7IX3Qh0J_9Lk8vAbSPwRblIkYSDM&usqp=CAU"
+    },
+    {
+      "id": "8",
+      "title": "Современные тренды в уходе за кожей",
+      "description": "Семинар о новейших трендах в уходе за кожей и эффективных методах лечения.",
+      "date": "15.02.2025",
+      "time": "17:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmsXRpNNoMxMTp2rfeYUvoGrRbhIhFUyjCmNkxMYGo222pp2kbrIOCrDHzylf5OD1kbv0&usqp=CAU"
+    },
+    {
+      "id": "9",
+      "title": "Мастер-класс от Kosmoteros",
+      "description": "Практический мастер-класс по использованию инновационных косметических средств.",
+      "date": "17.02.2025",
+      "time": "18:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3s4fEqWgvs0TrwhNpItlEwt1B9jZRcb9PDGhNh8budIidDzE8LMqqJRWuaxHz_-Bsz9A&usqp=CAU"
+    },
+    {
+      "id": "10",
+      "title": "Будущее косметологии с Kosmoteros",
+      "description": "Обсуждение перспектив развития косметологии и роли инноваций.",
+      "date": "19.02.2025",
+      "time": "19:00",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwLQPNrKV7iEhxvPtblvbhAF8RoQYG5zd_tuYpd9adKOzV0WPVx6kzzxi6fn4OxGr1pTI&usqp=CAU"
+    }
+  ]
+}

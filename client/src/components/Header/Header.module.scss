@@ -1,0 +1,13 @@
+
+
+.mainImage {
+    width: auto;
+    width: 300px;
+    margin-bottom: 20px;
+  }  
+  @media (max-width: 900px) {
+    .mainImage {
+        width: 240px;
+    }
+  }
+  
