@@ -14,11 +14,11 @@ import Paper from '@mui/material/Paper';
 import SnackbarWrapper from '../SnackbarNotifier';
 
 import { Box, TextField } from '@mui/material';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './FullScreenDialog.module.scss'
 import { TransitionProps } from '@mui/material/transitions';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteSeminar, selectEvent } from '../../redux/slices/SeminarSlice';
+import { selectEvent } from '../../redux/slices/SeminarSlice';
 import { setSelectedObject, setUpdatedObject,  setOpenModal } from '../../redux/slices/SeminarSlice';
 import { validateAndUpdateSeminar } from '../../redux/slices/SeminarSlice';
 import { AppDispatch } from '../../redux/store';
@@ -34,8 +34,6 @@ const Transition = React.forwardRef(function Transition(
 export default function FullScreenDialog() {
   const dispatch = useDispatch<AppDispatch>();
   const {selectedIds, updatedSeminar, openModal} = useSelector(selectEvent);
-
-  // const [open, setOpen] = useState(false);
   const [openFields, setOpenFields] = React.useState<Set<number>>(new Set());
 
   useEffect(() => {

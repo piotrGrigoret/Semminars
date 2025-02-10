@@ -14,6 +14,7 @@ export default function EnhancedTableHead() {
         <TableRow>
           <TableCell padding="checkbox">
           </TableCell>
+          {/* мапит ключи в качестве заголовков таблицы */}
           {Object.keys(seminars[0]).map((key, i) => (
             <TableCell
               key={i}

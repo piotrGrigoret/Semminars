@@ -18,7 +18,9 @@ export default function EnhancedTable() {
   const dispatch = useDispatch();
   const {seminars, selectedIds, pagination } = useSelector(selectEvent);
   
-  const handleClick = (event: React.MouseEvent<unknown>, id: number) => {
+
+//определяет массив выбранных юзером строк таблицы и передает в редакс состояние 
+const handleClick = (event: React.MouseEvent<unknown>, id: number) => {
   const selectedIndex = selectedIds.indexOf(id);
   let newSelected: number[] = [];
 
@@ -40,7 +42,7 @@ export default function EnhancedTable() {
 const handleChangePage = (event: unknown, newPage: number) => {
   dispatch(setPage(newPage));
 };
-
+// вызывает метод для регулирования пагинации и количества строк на одну страницу
 const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
   dispatch(setRowsPerPage(parseInt(event.target.value, 10)));
 };

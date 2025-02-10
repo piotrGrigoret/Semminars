@@ -2,13 +2,7 @@
 import { alpha } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Tooltip from '@mui/material/Tooltip';
-import IconButton from '@mui/material/IconButton';
-import DeleteIcon from '@mui/icons-material/Delete';
 import FullScreenDialog from '../FullScreenDialog';
-import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch } from '../../redux/store';
-import { deleteSeminar, selectEvent } from '../../redux/slices/SeminarSlice';
 import TransitionsModal from '../TransitionsModal';
 
 interface EnhancedTableToolbarProps {
@@ -17,13 +11,6 @@ interface EnhancedTableToolbarProps {
 
 
 export default function EnhancedTableToolbar(props: EnhancedTableToolbarProps) {
-    const dispatch = useDispatch<AppDispatch>();
-    const {selectedIds} = useSelector(selectEvent);
-    
-    const handleDelete = () =>{
-      dispatch(deleteSeminar(selectedIds.map(s => String(s))))
-    };
-    
     const { numSelected } = props;
     return (
       <Toolbar
@@ -49,19 +36,13 @@ export default function EnhancedTableToolbar(props: EnhancedTableToolbarProps) {
             {numSelected} selected
             </Typography>
         }
-
+        {/*если число выбранных элементов больше 1 то выводим лишь значок удаления */}
         {numSelected === 1 &&
          <FullScreenDialog/>
         }
         
-        
         {numSelected > 0 &&
           <TransitionsModal/>
-            // <Tooltip  title="Delete" onClick={handleDelete}>
-            //     <IconButton>
-            //     <DeleteIcon />
-            //     </IconButton>
-            // </Tooltip>  
         }
       </Toolbar>
     );
