@@ -43,3 +43,8 @@ ___
 
 
 
+<div style="display: flex; flex-direction: column; align-items: center;" align="center">
+  <img src="client/public/png/sem1.png" width="70%">
+  <img src="client/public/png/sem3.png" width="70%">
+  <img src="client/public/png/sem4.png" width="70%">
+</div>
